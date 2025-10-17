@@ -36,5 +36,5 @@ def get_crypto_price(crypto = 'bitcoin') -> str:
 
 # TODO: Start the server
 if __name__ == "__name__":
-  mcp.run(host='0.0.0.0')
+  mcp.run()
 
